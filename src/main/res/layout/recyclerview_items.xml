@@ -1,0 +1,223 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardMaxElevation="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="386dp"
+        android:layout_height="246dp"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/cpid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mob: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Showparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_toEndOf="@+id/cpid"
+            android:layout_toRightOf="@+id/cpid"
+            android:gravity="center"
+            android:text="Show Mobile Number"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cheight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cpid"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Height :"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowChildHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Showparent"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_toEndOf="@+id/cheight"
+            android:layout_toRightOf="@+id/cheight"
+            android:gravity="center"
+            android:text="Show Height"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        //start
+
+        <TextView
+            android:id="@+id/cweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cheight"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Weight: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowChildWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowChildHeight"
+            android:layout_toEndOf="@+id/cweight"
+            android:layout_toRightOf="@+id/cweight"
+            android:gravity="center"
+
+            android:text="Show Weight"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cweight"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Gender: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowChildGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowChildWeight"
+            android:layout_toEndOf="@+id/cgender"
+            android:layout_toRightOf="@+id/cgender"
+            android:gravity="center"
+
+            android:text="Show Gender"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cgender"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Result: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowChildGender"
+            android:layout_toEndOf="@+id/cresult"
+            android:layout_toRightOf="@+id/cresult"
+            android:gravity="center"
+
+            android:text="Result"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/clat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cresult"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Latitude: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowResult"
+            android:layout_toEndOf="@+id/clat"
+            android:layout_toRightOf="@+id/clat"
+            android:gravity="center"
+
+            android:text="Show Latitude"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/clon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clat"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Longitude: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowLatitude"
+            android:layout_toEndOf="@+id/clon"
+            android:layout_toRightOf="@+id/clon"
+            android:gravity="center"
+
+            android:text="Show Longitude"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clon"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Date: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowLongitude"
+            android:layout_toEndOf="@+id/cdate"
+            android:layout_toRightOf="@+id/cdate"
+            android:gravity="center"
+
+            android:text="Show Date"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

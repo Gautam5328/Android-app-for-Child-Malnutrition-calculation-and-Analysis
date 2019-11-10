@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".FamInformation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:id="@+id/n"
+                android:textColorHint="@color/coloraccent"
+                >
+
+                <EditText
+                    android:id="@+id/fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Full Name of Father"
+                    android:textSize="18dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:id="@+id/mn"
+                android:textColorHint="@color/coloraccent"
+                >
+
+                <EditText
+                    android:id="@+id/mname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mother's Name"
+                    android:textSize="18dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:textColorHint="@color/coloraccent"
+                >
+
+                <EditText
+                    android:id="@+id/add1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Address"
+                    android:textSize="18dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:id="@+id/o"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:textColorHint="@color/coloraccent"
+                >
+
+                <EditText
+                    android:id="@+id/occ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Occupation of Parent"
+                    android:textSize="18dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cd"
+                android:focusableInTouchMode="true"
+                android:textColorHint="@color/coloraccent"
+                >
+
+                <EditText
+                    android:id="@+id/deliv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Child Delivery "
+                    android:textSize="18dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:id="@+id/db"
+                android:textColorHint="@color/coloraccent"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="DOB of child"
+                    android:id="@+id/dob"
+                    android:textSize="18dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="20sp"
+                    />
+                <RadioButton
+                    android:id="@+id/m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    />
+                <RadioButton
+                    android:id="@+id/f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Female"
+                    />
+
+            </RadioGroup>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:id="@+id/fg"
+                android:textColorHint="@color/coloraccent"
+                >
+
+                <EditText
+                    android:id="@+id/food"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Food Given to Child "
+                    android:textSize="18dp"
+                    android:inputType="text|textMultiLine"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:id="@+id/mob"
+                android:textColorHint="@color/coloraccent"
+                >
+
+                <EditText
+                    android:id="@+id/mobno"
+                    android:digits="0,1,2,3,4,5,6,7,8,9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mobile Number "
+                    android:textSize="18dp"
+                    android:inputType="text|textMultiLine"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <!--            <com.google.android.material.textfield.TextInputLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:focusableInTouchMode="true"-->
+            <!--                android:id="@+id/height"-->
+            <!--                android:textColorHint="@color/colorAccent"-->
+            <!--                >-->
+
+            <!--                <EditText-->
+            <!--                    android:id="@+id/ht"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:hint="Enter Height "-->
+            <!--                    android:textSize="18dp"-->
+            <!--                    android:inputType="text|textMultiLine"-->
+            <!--                    />-->
+            <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+
+            <!--            <com.google.android.material.textfield.TextInputLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:focusableInTouchMode="true"-->
+            <!--                android:id="@+id/weight"-->
+            <!--                android:textColorHint="@color/colorAccent"-->
+            <!--                >-->
+
+            <!--                <EditText-->
+            <!--                    android:id="@+id/wt"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:hint="Enter Weight "-->
+            <!--                    android:textSize="18dp"-->
+            <!--                    android:inputType="text|textMultiLine"-->
+            <!--                    />-->
+            <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Add"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

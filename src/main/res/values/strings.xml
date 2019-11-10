@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Malnutrition</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="mypara">Malnutrition is a condition that results from eating a diet in which one or more nutrients are either not enough or are too much such that the diet causes health problems. It may involve calories, protein, carbohydrates, vitamins or minerals. </string>
+    <string name="information">
+
+          Ages 2 to 3: \nDaily guidelines for girls and boys\n
+Calories	1,000-1,400, depending on growth and activity level\n
+Protein	2-4 ounces\n
+Fruits	1-1.5 cups\n
+Vegetables	1-1.5 cups\n
+Grains	3-5 ounces\n
+Dairy	2 cups\n
+    </string>
+    <string name="contact">
+        Gautam Mob:888888888\n
+        Omkar Mob :9881285269\n
+        Prachi Mob:888888888\n
+        Madhulika Mob :9881285269\n
+    </string>
+
+
+</resources>

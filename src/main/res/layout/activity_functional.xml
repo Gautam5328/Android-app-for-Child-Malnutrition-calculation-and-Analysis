@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FunctionalActivity"
+    android:padding="30dp"
+    android:orientation="vertical"
+    >
+
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/insertchild"-->
+    <!--        android:layout_width="120dp"-->
+    <!--        android:layout_height="120dp"-->
+    <!--        android:layout_margin="15dp"-->
+    <!--        android:clickable="true"-->
+    <!--        android:foreground="?android:attr/selectableItemBackground"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.063"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.621">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical"-->
+
+    <!--            android:padding="10dp"-->
+    <!--            >-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="44dp"-->
+    <!--                android:layout_height="44dp"-->
+    <!--                android:background="@drawable/cerclebackgroundyellow"-->
+    <!--                android:padding="15dp"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:src="@drawable/ic_person_outline_black_24dp" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:text="Add Child"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:background="@color/lightgray" />-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/insertfam"-->
+    <!--        android:layout_width="128dp"-->
+    <!--        android:layout_height="122dp"-->
+    <!--        android:layout_toEndOf="@+id/insertchild"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:padding="30dp"-->
+    <!--        android:layout_toRightOf="@+id/insertchild"-->
+    <!--        android:clickable="true"-->
+    <!--        android:foreground="?android:attr/selectableItemBackground"-->
+    <!--      >-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="149dp"-->
+    <!--            android:layout_height="136dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:padding="10dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="54dp"-->
+    <!--                android:layout_height="54dp"-->
+    <!--                android:background="@drawable/cerclebackgroundyellow"-->
+    <!--                android:padding="10dp"-->
+    <!--                android:src="@drawable/ic_add_circle_black_24dp" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="5dp"-->
+    <!--                android:text="Family Info"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:background="@color/lightgray" />-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/searchindb"-->
+    <!--        android:layout_width="160dp"-->
+    <!--        android:layout_height="123dp"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:clickable="true"-->
+    <!--        android:foreground="?android:attr/selectableItemBackground"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        android:layout_below="@id/insertchild"-->
+    <!--        app:layout_constraintHorizontal_bias="0.063"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.621">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:padding="10dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="64dp"-->
+    <!--                android:layout_height="64dp"-->
+    <!--                android:background="@drawable/cerclebackgroundyellow"-->
+    <!--                android:padding="10dp"-->
+    <!--                android:src="@drawable/ic_search_black_24dp" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:text="Search"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:background="@color/lightgray" />-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/dispchild"-->
+    <!--        android:layout_width="160dp"-->
+    <!--        android:layout_height="123dp"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:clickable="true"-->
+    <!--        android:foreground="?android:attr/selectableItemBackground"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        android:layout_below="@id/insertfam"-->
+    <!--        android:layout_toRightOf="@id/searchindb"-->
+    <!--        app:layout_constraintHorizontal_bias="0.063"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.621">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:padding="10dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="64dp"-->
+    <!--                android:layout_height="64dp"-->
+    <!--                android:background="@drawable/cerclebackgroundyellow"-->
+    <!--                android:padding="10dp"-->
+    <!--                android:src="@drawable/ic_lightbulb_outline_black_24dp" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:text="Display Child"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:background="@color/lightgray" />-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/dispfam"-->
+    <!--        android:layout_width="160dp"-->
+    <!--        android:layout_height="123dp"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:clickable="true"-->
+    <!--        android:foreground="?android:attr/selectableItemBackground"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        android:layout_below="@id/searchindb"-->
+    <!--        app:layout_constraintHorizontal_bias="0.063"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.621">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:padding="10dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="64dp"-->
+    <!--                android:layout_height="64dp"-->
+    <!--                android:background="@drawable/cerclebackgroundyellow"-->
+    <!--                android:padding="10dp"-->
+    <!--                android:src="@drawable/ic_lightbulb_outline_black_24dp" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:text="Display Family"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:background="@color/lightgray" />-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/piechar"-->
+    <!--        android:layout_width="160dp"-->
+    <!--        android:layout_height="123dp"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:clickable="true"-->
+    <!--        android:foreground="?android:attr/selectableItemBackground"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        android:layout_below="@id/searchindb"-->
+    <!--        android:layout_toRightOf="@id/dispfam"-->
+    <!--        app:layout_constraintHorizontal_bias="0.063"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.621">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:padding="10dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="64dp"-->
+    <!--                android:layout_height="64dp"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:background="@drawable/cerclebackgroundyellow"-->
+    <!--                android:padding="10dp"-->
+    <!--                android:src="@drawable/ic_picpie" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:text="PieChart"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:background="@color/lightgray"-->
+    <!--                android:padding="10dp" />-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/insertchild"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" >
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="10dp"
+                android:background="@drawable/cerclebackgroundyellow"
+                android:src="@drawable/ic_face_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Child"
+                android:textStyle="bold"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray"
+                android:padding="10dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:id="@+id/insertfam"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" >
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cerclebackgroundyellow"
+                android:src="@drawable/ic_person_outline_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Family"
+                android:textStyle="bold"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray"
+                android:padding="10dp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/dispfam"-->
+    <!--        android:layout_width="120dp"-->
+    <!--        android:layout_height="120dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.144"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.428"-->
+
+    <!--        >-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="120dp"-->
+    <!--            android:layout_height="120dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="60dp"-->
+    <!--                android:layout_height="60dp"-->
+    <!--                android:background="@drawable/cerclebackgroundyellow"-->
+    <!--                android:src="@drawable/ic_lightbulb_outline_black_24dp" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Disp Family"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_margin="10dp"-->
+    <!--                android:background="@color/lightgray"-->
+    <!--                android:padding="10dp" />-->
+
+
+    <!--        </LinearLayout>-->
+
+    <!--    </androidx.cardview.widget.CardView>-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/searchindb"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cerclebackgroundyellow"
+                android:src="@drawable/ic_search_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray"
+                android:padding="10dp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/dispchild"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" >
+
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cerclebackgroundyellow"
+                android:src="@drawable/ic_lightbulb_outline_black_24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disp Child"
+                android:textStyle="bold"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray"
+                android:padding="10dp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/piechar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cerclebackgroundyellow"
+                android:src="@drawable/ic_picpie" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Analytics"
+                android:textStyle="bold"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray"
+                android:padding="10dp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

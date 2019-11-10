@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardMaxElevation="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="386dp"
+        android:layout_height="340dp"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/cpid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mob No: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Showparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_toEndOf="@+id/cpid"
+            android:layout_toRightOf="@+id/cpid"
+            android:gravity="center"
+            android:text="Mobile"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cheight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cpid"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Father Name :"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowChildHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Showparent"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_toEndOf="@+id/cheight"
+            android:layout_toRightOf="@+id/cheight"
+            android:gravity="center"
+            android:text="Show Father Name"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        //start
+
+        <TextView
+            android:id="@+id/cweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cheight"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Mother Name: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowChildWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowChildHeight"
+            android:layout_toEndOf="@+id/cweight"
+            android:layout_toRightOf="@+id/cweight"
+            android:gravity="center"
+
+            android:text="Show Mother"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cweight"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Delivery : "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowChildGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowChildWeight"
+            android:layout_toEndOf="@+id/cgender"
+            android:layout_toRightOf="@+id/cgender"
+            android:gravity="center"
+
+            android:text="Show Delivery"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cgender"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="DOB : "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowChildGender"
+            android:layout_toEndOf="@+id/cresult"
+            android:layout_toRightOf="@+id/cresult"
+            android:gravity="center"
+
+            android:text="Date of Birth"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/clat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cresult"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Address: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowResult"
+            android:layout_toEndOf="@+id/clat"
+            android:layout_toRightOf="@+id/clat"
+            android:gravity="center"
+
+            android:text="Show Address"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/clon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clat"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="FoodInfo : "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowLatitude"
+            android:layout_toEndOf="@+id/clon"
+            android:layout_toRightOf="@+id/clon"
+            android:gravity="center"
+
+            android:text="Food Info"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cclat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clon"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Latitude: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowLongitude"
+            android:layout_toEndOf="@+id/cclat"
+            android:layout_toRightOf="@+id/cclat"
+            android:gravity="center"
+
+            android:text="Show Lat"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cclon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cclat"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Longitude: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowLon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowLat"
+            android:layout_toEndOf="@+id/cclon"
+            android:layout_toRightOf="@+id/cclon"
+            android:gravity="center"
+
+            android:text="Show Long"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/cres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cclon"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Occupation: "
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowRes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowLon"
+            android:layout_toEndOf="@+id/cres"
+            android:layout_toRightOf="@+id/cres"
+            android:gravity="center"
+
+            android:text="Show Occup"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
